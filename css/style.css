@@ -13,18 +13,40 @@ header {
   text-align: center;
   color: #9400d3;
   padding: 20px 0;
+  font-weight: bold;
 }
 
 .list-cadastre {
   display: flex;
   margin: 20px 0;
   padding: 0 20px;
+  gap: 2px;
 }
 
 .list-cadastre input[type="text"] {
   flex: 1;
   height: 40px;
   padding-left: 20px;
+  border: 1px solid #66cdaa;
+}
+
+.list-cadastre input[type="number"] {
+  padding-left: 20px;
+  border: 1px solid #66cdaa;
+}
+
+.list-cadastre input::placeholder {
+  color: #66cdaa;
+  font-size: 17px;
+}
+
+.list-cadastre input[type="submit"] {
+  background-color: #9400d3;
+  color: #fff;
+  padding: 7px;
+  font-size: 17px;
+  font-weight: bold;
+  border: 1px solid #9400d3;
 }
 
 .list-product-single {
