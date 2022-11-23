@@ -36,6 +36,13 @@ document.querySelector('input[type=submit]').addEventListener('click', ()=>{
 	priceProduct.value = ""
 
 	let elementSum = document.querySelector('.sum-product h1');
-	elementSum.innerHTML = `R$ `+sum;
+	elementSum.innerHTML = `Total: R$ `+sum;
 
+})
+
+document.querySelector('button[name=clean]').addEventListener('click',()=>{
+	items = [];
+
+	document.querySelector('.list-products').innerHTML = "";
+	document.querySelector('.sum-product h1').innerHTML = "Total: R$ 0";	
 })

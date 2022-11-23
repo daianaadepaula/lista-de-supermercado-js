@@ -47,6 +47,11 @@ header {
   font-size: 17px;
   font-weight: bold;
   border: 1px solid #9400d3;
+  border-radius: 10px;
+}
+
+.list-cadastre input[type="submit"]:hover {
+  opacity: 0.6;
 }
 
 .list-product-single {
@@ -74,6 +79,27 @@ h3.price-product > span {
 }
 
 .sum-product {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sum-product h1 {
   margin: 20px;
   color: #9400d3;
+}
+
+.sum-product button[name="clean"] {
+  background-color: #66cdaa;
+  color: #9400d3;
+  width: 120px;
+  padding: 7px;
+  margin: 20px;
+  font-size: 17px;
+  font-weight: bold;
+  border: 1px solid #9400d3;
+  border-radius: 15px;
+}
+
+.sum-product button[name="clean"]:hover {
+  opacity: 0.6;
 }
